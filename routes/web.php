@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\MoviesController;
+use Illuminate\Http\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,4 @@ use App\Http\MoviesController;
 |
 */
 
-Route::get('/', [MoviesController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');

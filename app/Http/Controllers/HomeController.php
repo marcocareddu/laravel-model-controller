@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controrequestllers;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MoviesController extends Controller
+class HomeController extends Controller
 {
     //
     public function index()
