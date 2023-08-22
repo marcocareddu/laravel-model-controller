@@ -22,9 +22,9 @@
                 <div class="card col-4" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title"> {{ $movie->title }} </h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{{ $movie->original_title }} </h6>
-                        <a href="#" class="card-link">{{ $movie->date }} </a>
-                        <a href="#" class="card-link">{{ $movie->nationality }} </a>
+                        <h6 class="card-subtitle mb-2 text-muted">Titolo originale: {{ $movie->original_title }} </h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Data uscita: {{ $movie->date }} </h6>
+                        <h6 class="card-subtitle mb-2 text-muted">Origine: {{ $movie->nationality }}</h6>
                     </div>
                 </div>
             @endforeach
